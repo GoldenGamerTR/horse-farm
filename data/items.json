@@ -1,0 +1,92 @@
+{
+  "items": [
+    {
+      "id": "item_water",
+      "nameKey": "item_water_name",
+      "descKey": "item_water_desc",
+      "category": "water",
+      "hungerReduction": 0,
+      "thirstReduction": 40,
+      "trustGain": 2,
+      "price": 5,
+      "requiredRegionId": "region_starter_farm"
+    },
+    {
+      "id": "item_basic_feed",
+      "nameKey": "item_basic_feed_name",
+      "descKey": "item_basic_feed_desc",
+      "category": "feed",
+      "hungerReduction": 30,
+      "thirstReduction": 0,
+      "trustGain": 2,
+      "price": 8,
+      "requiredRegionId": "region_starter_farm"
+    },
+    {
+      "id": "item_grooming_kit",
+      "nameKey": "item_grooming_kit_name",
+      "descKey": "item_grooming_kit_desc",
+      "category": "groom",
+      "hungerReduction": 0,
+      "thirstReduction": 0,
+      "trustGain": 8,
+      "price": 12,
+      "requiredRegionId": "region_starter_farm"
+    },
+    {
+      "id": "item_highland_herb",
+      "nameKey": "item_highland_herb_name",
+      "descKey": "item_highland_herb_desc",
+      "category": "feed",
+      "hungerReduction": 30,
+      "thirstReduction": 0,
+      "trustGain": 5,
+      "price": 20,
+      "requiredRegionId": "region_highlands"
+    },
+    {
+      "id": "item_forest_berry",
+      "nameKey": "item_forest_berry_name",
+      "descKey": "item_forest_berry_desc",
+      "category": "feed",
+      "hungerReduction": 30,
+      "thirstReduction": 0,
+      "trustGain": 5,
+      "price": 20,
+      "requiredRegionId": "region_deep_forest"
+    },
+    {
+      "id": "item_mountain_grass",
+      "nameKey": "item_mountain_grass_name",
+      "descKey": "item_mountain_grass_desc",
+      "category": "feed",
+      "hungerReduction": 35,
+      "thirstReduction": 0,
+      "trustGain": 6,
+      "price": 25,
+      "requiredRegionId": "region_deep_forest"
+    },
+    {
+      "id": "item_oasis_date",
+      "nameKey": "item_oasis_date_name",
+      "descKey": "item_oasis_date_desc",
+      "category": "feed",
+      "hungerReduction": 35,
+      "thirstReduction": 5,
+      "trustGain": 5,
+      "price": 30,
+      "requiredRegionId": "region_hidden_oasis"
+    },
+    {
+      "id": "item_steppe_grass",
+      "nameKey": "item_steppe_grass_name",
+      "descKey": "item_steppe_grass_desc",
+      "category": "feed",
+      "hungerReduction": 40,
+      "thirstReduction": 0,
+      "trustGain": 7,
+      "price": 35,
+      "requiredRegionId": "region_hidden_oasis"
+    }
+  ]
+}

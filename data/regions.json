@@ -1,0 +1,68 @@
+{
+  "regions": [
+    {
+      "id": "region_starter_farm",
+      "nameKey": "region_starter_farm_name",
+      "descKey": "region_starter_farm_desc",
+      "unlockLevel": 1,
+      "availableBreeds": ["breed_farm_horse"],
+      "availableItems": ["item_water", "item_basic_feed", "item_grooming_kit"],
+      "groundColor": "#5E8C42",
+      "skyTint": "#87CEEB",
+      "fogColor": "#C8E6C9"
+    },
+    {
+      "id": "region_highlands",
+      "nameKey": "region_highlands_name",
+      "descKey": "region_highlands_desc",
+      "unlockLevel": 5,
+      "availableBreeds": ["breed_highland_horse"],
+      "availableItems": ["item_water", "item_basic_feed", "item_grooming_kit", "item_highland_herb"],
+      "groundColor": "#6B8E5A",
+      "skyTint": "#70A8D8",
+      "fogColor": "#BFD8E6"
+    },
+    {
+      "id": "region_deep_forest",
+      "nameKey": "region_deep_forest_name",
+      "descKey": "region_deep_forest_desc",
+      "unlockLevel": 10,
+      "availableBreeds": ["breed_forest_horse", "breed_mountain_horse"],
+      "availableItems": ["item_water", "item_basic_feed", "item_grooming_kit", "item_forest_berry", "item_mountain_grass"],
+      "groundColor": "#3E6B36",
+      "skyTint": "#5E988E",
+      "fogColor": "#98B8A8"
+    },
+    {
+      "id": "region_hidden_oasis",
+      "nameKey": "region_hidden_oasis_name",
+      "descKey": "region_hidden_oasis_desc",
+      "unlockLevel": 15,
+      "availableBreeds": ["breed_oasis_horse", "breed_steppe_horse"],
+      "availableItems": ["item_water", "item_basic_feed", "item_grooming_kit", "item_oasis_date", "item_steppe_grass"],
+      "groundColor": "#C4A75D",
+      "skyTint": "#E6B87A",
+      "fogColor": "#EBD5B3"
+    },
+    {
+      "id": "region_legend_summit",
+      "nameKey": "region_legend_summit_name",
+      "descKey": "region_legend_summit_desc",
+      "unlockLevel": 20,
+      "availableBreeds": ["breed_legendary_white"],
+      "availableItems": [
+        "item_water",
+        "item_basic_feed",
+        "item_grooming_kit",
+        "item_highland_herb",
+        "item_forest_berry",
+        "item_mountain_grass",
+        "item_oasis_date",
+        "item_steppe_grass"
+      ],
+      "groundColor": "#7B8D9E",
+      "skyTint": "#A8C4E0",
+      "fogColor": "#D6E4F0"
+    }
+  ]
+}

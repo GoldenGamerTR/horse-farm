@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "id": "event_wolf_attack",
+      "type": "wolf",
+      "nameKey": "event_wolf_name",
+      "warningKey": "event_wolf_warning",
+      "intervalMinSec": 480,
+      "intervalMaxSec": 900,
+      "firstTriggerDelaySec": 75,
+      "spawnMinDistance": 50.0,
+      "spawnMaxDistance": 75.0,
+      "moveSpeed": 2.0,
+      "barnReachDistance": 5.0,
+      "requiredScreams": 3,
+      "xpReward": 20,
+      "goldRewardMin": 10,
+      "goldRewardMax": 30,
+      "successTrustLoss": 5,
+      "trustPenalty": 20,
+      "panicDurationSec": 120
+    },
+    {
+      "id": "event_wild_pack",
+      "type": "wolf",
+      "nameKey": "event_wild_pack_name",
+      "warningKey": "event_wild_pack_warning",
+      "intervalMinSec": 540,
+      "intervalMaxSec": 900,
+      "firstTriggerDelaySec": 180,
+      "spawnMinDistance": 55.0,
+      "spawnMaxDistance": 80.0,
+      "moveSpeed": 2.2,
+      "barnReachDistance": 5.0,
+      "requiredScreams": 3,
+      "xpReward": 25,
+      "goldRewardMin": 15,
+      "goldRewardMax": 30,
+      "successTrustLoss": 5,
+      "trustPenalty": 20,
+      "panicDurationSec": 120
+    }
+  ]
+}

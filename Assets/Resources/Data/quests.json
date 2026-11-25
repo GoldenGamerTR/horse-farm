@@ -1,0 +1,172 @@
+{
+  "quests": [
+    {
+      "id": "quest_feed_twice",
+      "regionId": "region_starter_farm",
+      "titleKey": "quest_feed_twice_title",
+      "descKey": "quest_feed_twice_desc",
+      "type": "feed",
+      "targetValue": 2,
+      "goldReward": 35,
+      "xpReward": 50,
+      "prerequisiteQuestId": "",
+      "unlockBreedId": ""
+    },
+    {
+      "id": "quest_water_twice",
+      "regionId": "region_starter_farm",
+      "titleKey": "quest_water_twice_title",
+      "descKey": "quest_water_twice_desc",
+      "type": "water",
+      "targetValue": 2,
+      "goldReward": 30,
+      "xpReward": 50,
+      "prerequisiteQuestId": "",
+      "unlockBreedId": ""
+    },
+    {
+      "id": "quest_groom_three",
+      "regionId": "region_starter_farm",
+      "titleKey": "quest_groom_three_title",
+      "descKey": "quest_groom_three_desc",
+      "type": "care",
+      "targetValue": 3,
+      "goldReward": 45,
+      "xpReward": 65,
+      "prerequisiteQuestId": "",
+      "unlockBreedId": ""
+    },
+    {
+      "id": "quest_trust_70",
+      "regionId": "region_starter_farm",
+      "titleKey": "quest_trust_70_title",
+      "descKey": "quest_trust_70_desc",
+      "type": "trust",
+      "targetValue": 70,
+      "goldReward": 75,
+      "xpReward": 90,
+      "prerequisiteQuestId": "quest_feed_twice",
+      "unlockBreedId": ""
+    },
+    {
+      "id": "quest_sell_first",
+      "regionId": "region_starter_farm",
+      "titleKey": "quest_sell_first_title",
+      "descKey": "quest_sell_first_desc",
+      "type": "sell",
+      "targetValue": 1,
+      "goldReward": 90,
+      "xpReward": 100,
+      "prerequisiteQuestId": "quest_water_twice",
+      "unlockBreedId": ""
+    },
+    {
+      "id": "quest_starter_chain",
+      "regionId": "region_starter_farm",
+      "titleKey": "quest_starter_chain_title",
+      "descKey": "quest_starter_chain_desc",
+      "type": "chain",
+      "targetValue": 6,
+      "goldReward": 160,
+      "xpReward": 150,
+      "prerequisiteQuestId": "quest_groom_three",
+      "unlockBreedId": "breed_highland_horse"
+    },
+    {
+      "id": "quest_highland_care",
+      "regionId": "region_highlands",
+      "titleKey": "quest_highland_care_title",
+      "descKey": "quest_highland_care_desc",
+      "type": "care",
+      "targetValue": 5,
+      "goldReward": 120,
+      "xpReward": 120,
+      "prerequisiteQuestId": "quest_starter_chain",
+      "unlockBreedId": ""
+    },
+    {
+      "id": "quest_highland_trust",
+      "regionId": "region_highlands",
+      "titleKey": "quest_highland_trust_title",
+      "descKey": "quest_highland_trust_desc",
+      "type": "trust",
+      "targetValue": 80,
+      "goldReward": 180,
+      "xpReward": 160,
+      "prerequisiteQuestId": "quest_highland_care",
+      "unlockBreedId": "breed_forest_horse"
+    },
+    {
+      "id": "quest_highland_sell",
+      "regionId": "region_highlands",
+      "titleKey": "quest_highland_sell_title",
+      "descKey": "quest_highland_sell_desc",
+      "type": "sell",
+      "targetValue": 2,
+      "goldReward": 220,
+      "xpReward": 170,
+      "prerequisiteQuestId": "quest_highland_care",
+      "unlockBreedId": ""
+    },
+    {
+      "id": "quest_forest_feed",
+      "regionId": "region_deep_forest",
+      "titleKey": "quest_forest_feed_title",
+      "descKey": "quest_forest_feed_desc",
+      "type": "feed",
+      "targetValue": 6,
+      "goldReward": 200,
+      "xpReward": 160,
+      "prerequisiteQuestId": "quest_highland_trust",
+      "unlockBreedId": ""
+    },
+    {
+      "id": "quest_mountain_master",
+      "regionId": "region_deep_forest",
+      "titleKey": "quest_mountain_master_title",
+      "descKey": "quest_mountain_master_desc",
+      "type": "chain",
+      "targetValue": 10,
+      "goldReward": 350,
+      "xpReward": 200,
+      "prerequisiteQuestId": "quest_forest_feed",
+      "unlockBreedId": "breed_mountain_horse"
+    },
+    {
+      "id": "quest_oasis_trust",
+      "regionId": "region_hidden_oasis",
+      "titleKey": "quest_oasis_trust_title",
+      "descKey": "quest_oasis_trust_desc",
+      "type": "trust",
+      "targetValue": 90,
+      "goldReward": 400,
+      "xpReward": 200,
+      "prerequisiteQuestId": "quest_mountain_master",
+      "unlockBreedId": "breed_oasis_horse"
+    },
+    {
+      "id": "quest_steppe_legend",
+      "regionId": "region_hidden_oasis",
+      "titleKey": "quest_steppe_legend_title",
+      "descKey": "quest_steppe_legend_desc",
+      "type": "chain",
+      "targetValue": 12,
+      "goldReward": 650,
+      "xpReward": 200,
+      "prerequisiteQuestId": "quest_oasis_trust",
+      "unlockBreedId": "breed_steppe_horse"
+    },
+    {
+      "id": "quest_summit_finale",
+      "regionId": "region_legend_summit",
+      "titleKey": "quest_summit_finale_title",
+      "descKey": "quest_summit_finale_desc",
+      "type": "trust",
+      "targetValue": 100,
+      "goldReward": 1200,
+      "xpReward": 200,
+      "prerequisiteQuestId": "quest_steppe_legend",
+      "unlockBreedId": "breed_legendary_white"
+    }
+  ]
+}

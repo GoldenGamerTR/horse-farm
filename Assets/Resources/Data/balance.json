@@ -1,0 +1,85 @@
+{
+  "startingState": {
+    "gold": 100,
+    "inventorySlots": 12,
+    "horseCapacity": 2,
+    "level": 1,
+    "startingRegionId": "region_starter_farm",
+    "startingHorseTrust": 30,
+    "startingItems": [
+      { "itemId": "item_basic_feed", "count": 8 },
+      { "itemId": "item_water", "count": 6 },
+      { "itemId": "item_grooming_kit", "count": 4 }
+    ]
+  },
+  "player": {
+    "walkSpeed": 4.5,
+    "runSpeed": 8.0,
+    "jumpHeight": 1.4,
+    "interactRange": 4.5,
+    "screamCooldownSec": 3.0,
+    "screamRange": 15.0,
+    "screamAngleDeg": 65.0
+  },
+  "needs": {
+    "hungerIncreasePerMin": 10.0,
+    "thirstIncreasePerMin": 12.0,
+    "trustLossHighNeedsPerMin": 3.0,
+    "trustLossNoInteractionPerMin": 1.0,
+    "groomTrustGain": 8.0,
+    "groomCooldownSec": 30.0,
+    "feedTrustGain": 2.0,
+    "waterTrustGain": 2.0,
+    "criticalThreshold": 70.0
+  },
+  "ai": {
+    "followTrustThreshold": 60.0,
+    "followMaxDistance": 15.0,
+    "followStopDistance": 2.8,
+    "fleeTrustThreshold": 20.0,
+    "fleeRunDistance": 8.0,
+    "panicTrustLossPerSec": 5.0,
+    "panicDurationSec": 120.0,
+    "maxActiveAIHorses": 20
+  },
+  "inventory": {
+    "maxStackSize": 20,
+    "maxBulkBuy": 20
+  },
+  "xp": {
+    "feedOrWater": 5,
+    "groom": 8,
+    "buyNewBreed": 30,
+    "repelThreat": 20,
+    "sellHorsePriceRatio": 0.10,
+    "levelBaseXp": 100.0,
+    "levelExponent": 1.5,
+    "maxActiveQuests": 3
+  },
+  "raritySettings": [
+    { "rarity": 1, "nameKey": "rarity_1", "baseSellValue": 100, "merchantPrice": 150, "trustMultiplier": 1.00, "panicThreshold": 10 },
+    { "rarity": 2, "nameKey": "rarity_2", "baseSellValue": 250, "merchantPrice": 400, "trustMultiplier": 0.80, "panicThreshold": 15 },
+    { "rarity": 3, "nameKey": "rarity_3", "baseSellValue": 600, "merchantPrice": 1000, "trustMultiplier": 0.60, "panicThreshold": 20 },
+    { "rarity": 4, "nameKey": "rarity_4", "baseSellValue": 1500, "merchantPrice": 2500, "trustMultiplier": 0.45, "panicThreshold": 25 },
+    { "rarity": 5, "nameKey": "rarity_5", "baseSellValue": 4000, "merchantPrice": 7000, "trustMultiplier": 0.30, "panicThreshold": 30 }
+  ],
+  "barnUpgrades": [
+    { "level": 0, "capacity": 2, "cost": 0 },
+    { "level": 1, "capacity": 4, "cost": 300 },
+    { "level": 2, "capacity": 6, "cost": 900 },
+    { "level": 3, "capacity": 9, "cost": 2500 },
+    { "level": 4, "capacity": 12, "cost": 7000 }
+  ],
+  "storageUpgrades": [
+    { "level": 0, "slots": 12, "cost": 0 },
+    { "level": 1, "slots": 18, "cost": 200 },
+    { "level": 2, "slots": 24, "cost": 800 },
+    { "level": 3, "slots": 36, "cost": 3000 }
+  ],
+  "titles": [
+    { "minLevel": 1, "maxLevel": 4, "titleKey": "title_groom" },
+    { "minLevel": 5, "maxLevel": 9, "titleKey": "title_farm_owner" },
+    { "minLevel": 10, "maxLevel": 14, "titleKey": "title_breeder" },
+    { "minLevel": 15, "maxLevel": 999, "titleKey": "title_stud_owner" }
+  ]
+}
